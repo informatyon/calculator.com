@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="i (1).webp">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-image: url(1620079468_26-phonoteka_org-p-kalkulyator-fon-30.jpg);
+        color: rgb(255, 0, 0);
+        font-family: fantasy;
+        text-shadow: 3px 3px rgb(0, 0, 0);
+
+    }
+    input{
+        width: 500px;
+        height: 50px;
+        background-color: rgb(148, 148, 148);
+        color: rgb(255, 0, 0);
+        font-size: 35px;
+        border: 3px solid #000;
+        border-radius: 20px;
+        margin: 5px;
+    }
+    #spam{
+        width: 500px;
+        height: 50px;
+        font-size: 33px;
+        background-color: rgb(148, 148, 148);
+        color: rgb(255, 0, 0);
+        border: 3px solid #000;
+        border-radius:20px ;
+    }
+    .nav{
+        font-size: 50px;
+        font-family:'Akronim',cursive;
+        letter-spacing: 3px;
+        text-shadow: 2px 5px rgb(255, 0, 0);
+        color: rgb(255, 255, 255);
+    }
+</style>
+<body><h1 class="nav">calculator </h1>
+    <center>
+<p><form>
+    <h1>ԹԻՎ 1:</h1> <input type="text" id="firstNumber"/><br>
+   <h1> ԹԻՎ 2: </h1><input type="text" id="secondNumber"/><br>
+    <input type="button" onClick="multiplyBy()" Value="ԲԱԶՄԱՊԱՏԿՈՒՄ"/>
+    <input type="button" onClick="divideBy()" Value="ԲԱԺԱՆՈՒՄ" />
+    <input type="button" onClick="SummationBy()" Value="ԳՈՒՄԱՐՈՒՄ" />
+    <input type="button" onClick="SubtractionBy()" Value="ՀԱՆՈՒՄ" />
+    </form>
+    <p><h1>ՀԱՎԱՍԱՐ Է․․․:</h1> <br>
+    <div id="spam"><span id = "result"></span></div>
+    </p></center>
+ <script src="socyl.js"></script>   
+</body>
+</html>
